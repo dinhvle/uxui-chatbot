@@ -1,0 +1,48 @@
+// Main Style
+
+// body {
+//   background-color: #dedede;
+// }
+
+.module {
+  width: 600px;
+  margin: 20px auto;
+}
+
+.conversation {
+  list-style: none;
+  background-color: #eeeeee;
+  margin: 0;
+  padding: 20px 0 20px 0;
+  li {
+    padding: 8px 16px 8px 16px;
+    overflow: hidden;
+    display: flex;
+  }
+}
+
+.userResponse {
+  justify-content: flex-end;
+  align-items: flex-end;
+  .messages {
+    background-color: #ffffff;
+  }
+}
+
+.botResponse {
+  justify-content: flex-start;
+  align-items: flex-start;
+  .messages {
+  background-color: #3a54ac;
+  color: #ffffff;
+  }
+}
+
+.messages {
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  p {
+    margin: 2px 2px 2px 2px;
+  }
+}
