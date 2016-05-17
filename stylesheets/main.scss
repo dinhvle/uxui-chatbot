@@ -9,6 +9,20 @@
   margin: 20px auto;
 }
 
+//Styling for Header
+.title-bar {
+  background-color: #3a54ac;
+  color: #ffffff;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  h1 {
+    display: inline;
+  }
+}
+
+// Styling for bubbles
 .conversation {
   list-style: none;
   background-color: #eeeeee;
@@ -23,7 +37,7 @@
 
 .userResponse {
   justify-content: flex-end;
-  align-items: flex-end;
+  align-items: flex-start;
   .messages {
     background-color: #ffffff;
   }
@@ -44,5 +58,43 @@
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
   p {
     margin: 2px 2px 2px 2px;
+  }
+}
+
+// Styling for chat-bar
+
+.chat-bar {
+  list-style: none;
+  background-color: #eeeeee;
+  margin: 0;
+  padding: 20px 0 20px 0;
+  div {
+    padding: 8px 16px 8px 16px;
+    overflow: hidden;
+    display: flex;
+  }
+}
+
+.chat-input {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.chat-message {
+  flex-grow: 1;
+  padding: 10px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  p {
+    margin: 2px 2px 2px 2px;
+  }
+}
+
+input {
+  width: 100%;
+  border: none;
+  &:focus {
+    outline: none;
   }
 }
