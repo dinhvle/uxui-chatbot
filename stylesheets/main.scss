@@ -28,8 +28,10 @@
   background-color: #eeeeee;
   margin: 0;
   padding: 20px 0 20px 0;
+  // max-height: 600px;
+  // overflow: scroll;
   li {
-    padding: 8px 16px 8px 16px;
+    padding: 10px 30px 10px 30px;
     overflow: hidden;
     display: flex;
   }
@@ -69,7 +71,7 @@
   margin: 0;
   padding: 20px 0 20px 0;
   div {
-    padding: 8px 16px 8px 16px;
+    padding: 10px 30px 10px 30px;
     overflow: hidden;
     display: flex;
   }
