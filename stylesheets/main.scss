@@ -40,17 +40,31 @@
 .userResponse {
   justify-content: flex-end;
   align-items: flex-start;
+  .triangle {
+    border: 6px solid #ffffff;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+  }
   .messages {
+    order: -1;
     background-color: #ffffff;
+    border-top-right-radius: 0;
   }
 }
 
 .botResponse {
   justify-content: flex-start;
   align-items: flex-start;
+  .triangle {
+    order: -1;
+    border: 6px solid #3a54ac;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+  }
   .messages {
-  background-color: #3a54ac;
-  color: #ffffff;
+    background-color: #3a54ac;
+    color: #ffffff;
+    border-top-left-radius: 0;
   }
 }
 

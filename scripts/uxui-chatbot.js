@@ -30,6 +30,9 @@ $(function() {
             $('<p/>', {text: message})
           )
         )
+        .append(
+          $('<div/>', {'class': 'triangle'})
+        )
       );
     } else if (from === "bot") {
       $('.conversation').append(
@@ -37,6 +40,9 @@ $(function() {
           $('<div/>', {'class': 'messages'}).append(
             $('<p/>', {text: message})
           )
+        )
+        .append(
+          $('<div/>', {'class': 'triangle'})
         )
       );
     }

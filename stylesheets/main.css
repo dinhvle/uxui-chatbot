@@ -25,15 +25,27 @@
 .userResponse {
   justify-content: flex-end;
   align-items: flex-start; }
+  .userResponse .triangle {
+    border: 6px solid #ffffff;
+    border-right-color: transparent;
+    border-bottom-color: transparent; }
   .userResponse .messages {
-    background-color: #ffffff; }
+    order: -1;
+    background-color: #ffffff;
+    border-top-right-radius: 0; }
 
 .botResponse {
   justify-content: flex-start;
   align-items: flex-start; }
+  .botResponse .triangle {
+    order: -1;
+    border: 6px solid #3a54ac;
+    border-left-color: transparent;
+    border-bottom-color: transparent; }
   .botResponse .messages {
     background-color: #3a54ac;
-    color: #ffffff; }
+    color: #ffffff;
+    border-top-left-radius: 0; }
 
 .messages {
   padding: 10px;
