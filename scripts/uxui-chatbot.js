@@ -50,7 +50,7 @@ $(function() {
 
   // Function to get bot to reply to messages
   function botRespondTo(message) {
-    var response = "does not compute";
+    var response = "I haven't been taught that yet, but if you are looking for a full-stack developer, contact me at dinh.v.le@gmail.com. You can also look at some of the stuff I did at www.dinhvle.com.";
     message = message.toLowerCase();
 
     if(message.match('(hi|hello|hey|hola|howdy)(\\s|!|\\.|$)'))
@@ -118,8 +118,7 @@ $(function() {
 
     console.log(response);
     createMessage("bot", response.toEmoticon());
-
-  }
+  };
 
   // Replace keyword with emoticon
   String.prototype.toEmoticon = function () {
